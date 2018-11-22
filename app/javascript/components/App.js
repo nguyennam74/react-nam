@@ -33,7 +33,8 @@ class App extends React.Component {
     capNhatState = () => {
         this.setState(
             {
-                trangthai: "trang thai duoc update"
+                trangthai: "capnhat1",
+                trangthai2: "capnhat2"
             }
         );
     }
