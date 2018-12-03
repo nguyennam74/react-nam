@@ -35,7 +35,7 @@ hr.light {
 
 /* line 1, /home/nguyennam/Projects/react-nam/app/assets/stylesheets/demo.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family:  'Roboto', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -62,7 +62,7 @@ section h2 {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: #fff;
   transition: all .35s;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family:  'Roboto', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -70,7 +70,7 @@ section h2 {
 /* line 1, /home/nguyennam/Projects/react-nam/app/assets/stylesheets/demo.scss */
 #mainNav .navbar-brand {
   color: #fdcc52;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family:  'Roboto', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -500,3 +500,4 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
   font-size: 11px;
   padding: 15px 45px;
 }
+

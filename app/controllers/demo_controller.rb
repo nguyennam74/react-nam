@@ -6,4 +6,12 @@ class DemoController < ApplicationController
   def show
 
   end
+
+  def new
+
+  end
+
+  def contact
+
+  end
 end
