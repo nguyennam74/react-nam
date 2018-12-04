@@ -12,12 +12,12 @@ import Home from "./Home";
 class Direct extends React.Component {
     render() {
         return (
-            <Router>
-                <div>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/tin" component={News} />
-                </div>
-            </Router>
+            <div>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/tin" component={News} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/chi-tiet" component={Detail} />
+            </div>
         );
     }
 }

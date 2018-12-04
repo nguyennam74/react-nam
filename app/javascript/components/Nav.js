@@ -1,4 +1,9 @@
-import React from "react"
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
 class Nav extends React.Component {
     render () {
         return (
@@ -12,14 +17,17 @@ class Nav extends React.Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="/demo">Tin tuc</a>
+                                <li>
+                                    <Link to="/">Home</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="/demo/1">Tin chi tiet</a>
+                                <li>
+                                    <Link to="/tin">TIN TUC</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger" href="/demo/1/contact">Contact</a>
+                                <li>
+                                    <Link to="/chi-tiet">TIN CHI TIET</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact">LIEN HE</Link>
                                 </li>
                             </ul>
                         </div>

@@ -1,20 +1,23 @@
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
 import Nav from "./Nav";
-import Home from "./Home";
 import Footer from "./Footer";
-import News from "./News";
-import Contact from "./Contact";
-import Detail from "./Detail";
 import Direct from "./Direct";
 
 class Client extends React.Component {
     render() {
         return(
-            <div>
-                <Nav/>
-                    <Direct/>
-                <Footer/>
-            </div>
+            <Router>
+                <div>
+                    <Nav/>
+                        <Direct/>
+                    <Footer/>
+                </div>
+            </Router>
         );
     }
 }
