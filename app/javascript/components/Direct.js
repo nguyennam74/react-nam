@@ -2,7 +2,8 @@ import React from "react";
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
+    NavLink
 } from 'react-router-dom';
 import News from "./News";
 import Contact from "./Contact";
@@ -13,7 +14,7 @@ class Direct extends React.Component {
     render() {
         return (
             <div>
-                <Route exact path="/" component={Home} />
+                <Route exact path="/home" component={Home} />
                 <Route exact path="/tin" component={News} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/chi-tiet" component={Detail} />

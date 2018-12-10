@@ -2,7 +2,8 @@ import React from "react";
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
+    NavLink
 } from 'react-router-dom';
 class Nav extends React.Component {
     render () {
@@ -18,16 +19,16 @@ class Nav extends React.Component {
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ml-auto">
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <NavLink to="/home">Home</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/tin">TIN TUC</Link>
+                                    <NavLink to="/tin">TIN TUC</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/chi-tiet">TIN CHI TIET</Link>
+                                    <NavLink to="/chi-tiet">TIN CHI TIET</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/contact">LIEN HE</Link>
+                                    <NavLink to="/contact">LIEN HE</NavLink>
                                 </li>
                             </ul>
                         </div>
