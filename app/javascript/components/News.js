@@ -11,8 +11,7 @@ class News extends React.Component {
                             dl.map((value, key) => {
                                 return (
                                     <NewsItem key={key} img={value.anh}
-                                              title={value.tieuDe} content={value.trichDan}>
-
+                                              title={value.tieuDe} content={value.trichDan} id={value.id}>
                                     </NewsItem>
                                 )
                             })

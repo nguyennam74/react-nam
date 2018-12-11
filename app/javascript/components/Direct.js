@@ -17,7 +17,7 @@ class Direct extends React.Component {
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/tin" component={News} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/chi-tiet" component={Detail} />
+                <Route exact path="/tin-tuc/:slug.:id.html" component={Detail} />
             </div>
         );
     }

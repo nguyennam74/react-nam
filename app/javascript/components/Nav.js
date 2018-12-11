@@ -25,7 +25,7 @@ class Nav extends React.Component {
                                     <NavLink to="/tin">TIN TUC</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/chi-tiet">TIN CHI TIET</NavLink>
+                                    <NavLink to="/tin-tuc">TIN CHI TIET</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/contact">LIEN HE</NavLink>
